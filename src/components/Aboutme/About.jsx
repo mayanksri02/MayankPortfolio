@@ -1,12 +1,12 @@
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import aboutImage from "../../assets/aboutImage.png";
+import aboutImage from "../../assets/aboutImage.jpg";
 import resume from "../../assets/Resume.pdf";
 import "./about.css";
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div id="about" className="about-container">
             <p className="about-title">About me</p>
             <div className="about">
                 <div className="image-about">
@@ -15,11 +15,11 @@ const About = () => {
                 </div>
                 <div className="about-content">
                     <p>
-                        Hello!! I'm Mayank Srivastava, hailing from Raebareli, Uttar Pradesh. Currently pursuing a Bachelor of Technology with CSE Stream in my third year at ABES Engineering College, Ghaziabad, I am passionate about crafting web applications using the MERN stack.
-                    </p>
+Hello! I’m Mayank Srivastava, a Software Developer from Raebareli, Uttar Pradesh. I’m passionate about building scalable, user-focused web applications and solving real-world problems through technology.                    </p>
                     <p>
-                        My enthusiasm extends to immersing myself in diverse projects that challenge my skills. I am dedicated, patient, and committed to living life to its fullest.
-                    </p>
+With a strong foundation in full-stack development and experience working with modern technologies, I enjoy turning ideas into impactful digital solutions. I’m always eager to explore new technologies, take on challenging projects, and continuously grow as a developer.                    </p>
+                    <p>
+I’m driven by curiosity, consistency, and a commitment to keep learning, building, and improving every day.                    </p>
                     <p>
                         Here are a few of the technologies I have been working with recently:
                     </p>
@@ -34,6 +34,7 @@ const About = () => {
                         <div className="tech-item">
                             <ul>
                                 <li>Express.js</li>
+                                <li>Postgre Sql</li>
                                 <li>Java</li>
                             </ul>
                         </div>

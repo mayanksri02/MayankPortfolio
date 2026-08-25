@@ -32,7 +32,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/i_mynk_09d?igsh=cWRpcXN0OGZwOWNm" aria-label="Instagram">
+                            <a href="https://www.instagram.com/_mayaankkkkk_/" aria-label="Instagram">
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                         </li>

@@ -47,7 +47,7 @@ const Faq = () => {
   ];
 
   return (
-    <div>
+    <div id="faq">
       <div className="faqs_container">
         <p className="faq-title">Frequently Asked Questions</p>
         <div className="question_container">

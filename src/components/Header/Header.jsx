@@ -15,18 +15,18 @@ const Header = () => {
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
-                <div className="menu-icon" onClick={handleMenuToggle}>
-                    <i className="fas fa-bars"></i> 
-                </div>
+                    <div className="menu-icon" onClick={handleMenuToggle} aria-expanded={menuOpen} aria-controls="main-nav">
+                        <i className="fas fa-bars"></i>
+                    </div>
             </div>
-            <nav className={`dropdown-menu ${menuOpen ? 'open' : ''}`}>
+                <nav id="main-nav" className={`dropdown-menu ${menuOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="#about">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#faq">Contact</a></li>
+                        <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
+                        <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
+                        <li><a href="#education" onClick={() => setMenuOpen(false)}>Education</a></li>
+                        <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+                        <li><a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a></li>
+                        <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
                 </ul>
             </nav>
         </header>

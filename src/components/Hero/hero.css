@@ -52,7 +52,7 @@ body {
     top: -16px;
     transform: translateX(-50%);
     border-radius: 12px;
-    background: var(--primary-color);
+    background: #9b8f8f;
 }
 
 .images {

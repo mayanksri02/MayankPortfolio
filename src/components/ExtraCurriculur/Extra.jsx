@@ -12,7 +12,7 @@ const Extra = () => {
                     <p className="extra-card-position">President (Batch- 2024-2025)</p>
                     <p className="extra-card-title">Technovation- the technical club of CSE</p>
                     <div className="extra-more-info">
-                        <a href="https://www.instagram.com/technovationabes?igsh=N3E5emVsdDh0dHhw" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/abes_technovation/" target="_blank" rel="noopener noreferrer">
                             More info
                         </a>
                     </div>
